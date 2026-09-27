@@ -34,12 +34,15 @@ env/
 *~
 
 # Model weights (các file .pth rất lớn, không nên đẩy lên GitHub)
+# CẢNH BÁO: Bỏ comment các dòng dưới nếu muốn upload model weights
+# Lưu ý: GitHub có giới hạn file 100MB, nên dùng Git LFS cho file lớn
 *.pth
 *.pt
 
-# Data files (nếu quá lớn)
+# Data files
 image/
-*.xlsx
+# Cho phép file Excel
+# *.xlsx
 
 # Jupyter Notebook
 .ipynb_checkpoints
