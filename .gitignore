@@ -43,7 +43,8 @@ image/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
+# Cho phép file seed-0-fcmf.ipynb
+# *.ipynb
 
 # OS
 .DS_Store
